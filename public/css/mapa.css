@@ -1,0 +1,132 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        font-family: "Montserrat";
+        color: #424242;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .menu-lateral {
+            background-color: #f8f9fa;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            z-index: 999;
+        }
+
+        .mapa {
+            /* background-color: #EFEFEF; */
+            background-color: lightgreen;
+            height: 100vh;
+            position: fixed;
+        }
+
+      
+
+        .caixa-pesquisa {
+            background-color: #fcfcfc;
+            height: 85vh;
+            margin: 50px 0;
+            border-radius: 5px;
+        }
+
+        .menu {
+            list-style: none;
+        }
+
+        #btn-extrair{
+            color: #fff;
+            background-color: #ff3d00;
+            border-color: #424242;
+            margin-bottom: 30px;
+        }
+
+        .menu-lateral_item {
+            text-align: center;
+            margin: 50px auto;
+        }
+
+        .item-label {
+            padding: 5px 0;
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        .form-pesquisa {
+            margin: 10px auto;
+            border-radius: 25px;
+        }
+
+        .busca-linha, .busca-regiao, .busca-empresa {
+            margin-bottom: 20px;
+        }
+
+        #buscaLinha, #buscaRegiao, #buscaEmpresa {
+            width: 360px;
+            height: 40px;
+            padding: 5px;
+            border: 1px solid #efefef;
+        }
+
+        .input-datas {
+            height: 48px;
+            padding: 5px;
+            border-style: none;
+            border: 1px solid #efefef;
+            border-radius: 2px;
+        }
+
+        .botao-buscar {
+            margin-top: 20px;
+            background-color: #ff3d00;
+            border: 0px;
+        }
+
+        .active {
+            color: #ff3d00;
+        }
+        .botao-buscar{
+            color: #fff;
+            background-color: #ff3d00;
+            border-color: #424242;
+            margin-bottom: 30px;
+        }
+        .botao-buscar:hover {
+            color: #424242;
+            background-color: #fff;
+            border-color: #ff3d00;
+        }
+        label{
+            margin-bottom: 0;
+        }
+        .negrito{
+            font-weight: 900;
+            color: #ff3d00;
+            font-size: 20px;
+        }
+        .negritinho{
+            font-weight: 700;
+        }
+        .font-ng{
+            font-size: 18px;
+        }
+        .margin-bot{
+            margin-bottom: 22px;
+        }
