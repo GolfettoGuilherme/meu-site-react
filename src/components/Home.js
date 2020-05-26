@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Home extends Component {
 
     render() {
-
-        const {urlFacebook ,urlInstagram, urlGithub} = this.props;
-
+        
+        const {urlFacebook ,urlInstagram, urlGithub} = this.props.dados;
+        
         return (
             <section
                 id="home"
@@ -35,18 +35,18 @@ class Home extends Component {
 
                 <ul className="home-social">
                     <li>
-                        <a href={this.urlFacebook}>
+                        <a href={urlFacebook} target="_blank">
                             <i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span>
                         </a>
                     </li>
                     
                     <li>
-                        <a href={this.urlInstagram}>
+                        <a href={urlInstagram}  target="_blank">
                             <i className="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span>
                         </a>
                     </li>
                     <li>
-                        <a href={this.urlGithub}>
+                        <a href={urlGithub}  target="_blank">
                             <i className="fa fa-github" aria-hidden="true"></i><span>Github</span>
                         </a>
                     </li>

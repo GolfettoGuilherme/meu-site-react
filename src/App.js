@@ -23,7 +23,6 @@ class App extends Component {
   render(){
     return (
       <Fragment>
-        <Header state = {this.state.dados} />
         <Home dados = {this.state.dados}/>
         <About urlGithub = {this.state.dados.urlGithub} />
         <Services />
